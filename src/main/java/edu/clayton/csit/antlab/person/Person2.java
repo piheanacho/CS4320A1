@@ -1,8 +1,3 @@
-import java.util.Collections;
-import java.util.List;
-import java.util.ArrayList;
-
-
 package edu.clayton.csit.antlab.person;
 
 /**
@@ -36,16 +31,7 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
-	   List<Character> characters = new ArrayList<>();
-        for (char c : input.toCharArray()) {
-            characters.add(c);
-        }
-        Collections.shuffle(characters);
-        StringBuilder result = new StringBuilder(characters.size());
-        for (char c : characters) {
-            result.append(c);
-        }
-        return result.toString();
+	  return null;
 	}
 	/**
 	 * Return a string rep of this object
